@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_1698675589930-pr-trigger-input-set
+  identifier: Build_python_1698675589930prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Harness_Testing_New
+  pipeline:
+    identifier: Build_python_1698675589930
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
